@@ -3,6 +3,8 @@ import "./App.css";
 import FirstUseMemo from "./interview-slots/firstSlot";
 import LiftingStateFirst from "./interview-slots/liftingStateFirst";
 import LiftingStateSecond from "./interview-slots/liftingStateSecond";
+import RegularFun from "./interview-slots/Arrowfunction";
+import ArrowFun from "./interview-slots/Arrowfunction";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -22,6 +24,8 @@ function App() {
       <p>
         Combined Values: {value1} {value2}
       </p>
+      {/* <RegularFun /> */}
+      <ArrowFun />
     </>
   );
 }
