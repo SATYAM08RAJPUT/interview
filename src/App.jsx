@@ -5,6 +5,7 @@ import LiftingStateFirst from "./interview-slots/liftingStateFirst";
 import LiftingStateSecond from "./interview-slots/liftingStateSecond";
 import RegularFun from "./interview-slots/Arrowfunction";
 import ArrowFun from "./interview-slots/Arrowfunction";
+import TabCom from "./interview-slots/tabComponents";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -26,6 +27,7 @@ function App() {
       </p>
       {/* <RegularFun /> */}
       <ArrowFun />
+      <TabCom />
     </>
   );
 }
